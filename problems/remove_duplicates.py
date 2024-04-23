@@ -58,6 +58,11 @@ If the element at the i pointer is different from the element at the j pointer (
 Continue this process until you have gone through the entire array.
 Return the value of j + 1 (since j is an index).
 
+Complexity:
+Time Complexity: O(n), where n is the number of elements in nums, since each element is checked exactly once.
+Space Complexity: O(1), because the modification is done in-place without using extra space.
+This solution is efficient, uses minimal space, and adheres to the problem's constraints by modifying the array in-place.
+
 
 '''
 
